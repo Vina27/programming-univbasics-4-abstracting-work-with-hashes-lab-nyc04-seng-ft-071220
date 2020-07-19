@@ -4,13 +4,7 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-  if hash[key]
-    hash[key] = hash[key] + 1.to_s 
-  else 
-    hash[key] = 1 
-  # return the correct value using the hash and key parameters
-  end
-  hash
+  hash[key]
 end 
 
 
