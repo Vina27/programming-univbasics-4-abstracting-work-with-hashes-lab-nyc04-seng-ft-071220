@@ -10,7 +10,7 @@ def read_from_hash(hash, key)
     hash[key] = 1 
   # return the correct value using the hash and key parameters
   end
-  hash 
+  hash[key] 
 end 
 
 
