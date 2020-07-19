@@ -5,7 +5,7 @@ end
 
 def read_from_hash(hash, key)
   if hash[key]
-    hash[key] = hash[key] + 1 
+    hash[key] = hash[key] + 1.to_s 
   else 
     hash[key] = 1 
   # return the correct value using the hash and key parameters
